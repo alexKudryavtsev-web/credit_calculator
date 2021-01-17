@@ -1,0 +1,15 @@
+.App {
+    min-width: 60vw;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 25px 20px;
+}
+
+.Header {
+    font-size: 2em;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

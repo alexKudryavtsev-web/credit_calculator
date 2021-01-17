@@ -1,0 +1,6 @@
+body {
+    background-image: linear-gradient( 109.6deg,  rgba(121,203,202,1) 11.2%, rgba(119,161,211,1) 91.1% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
