@@ -1,7 +1,7 @@
 const initialValues = {
     type: false,
-    sum: 100000,
-    percent: 13,
+    sum: 20000,
+    percent: 12,
     mounth: 6
 }
 

@@ -1,10 +1,11 @@
 import './style.css'
 import Form from './Form'
+import handleForm from './handler'
 
 function Calculator() {
     return <main className='App'>
         <a className='Header' href='https://github.com/'>Калькулятор кредита</a>
-        <Form submitHandler={body => console.log(body)}/>
+        <Form submitHandler={handleForm} />
     </main>
 }
 
