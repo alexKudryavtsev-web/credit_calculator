@@ -1,9 +1,10 @@
 .App {
-    min-width: 60vw;
+    width: 65vw;
     background-color: #fff;
     border: none;
     border-radius: 8px;
     padding: 25px 20px;
+    flex: 1;
 }
 
 .Header {

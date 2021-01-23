@@ -19,7 +19,7 @@ function FormComponent({ submitHandler }) {
             <Input placeholder='введите количество месяцев' type='number' min={1} prefix={<CalendarOutlined />} />
         </Form.Item>
         <Form.Item {...tailLayout}>
-            <Button htmlType='submit' onClick={() => console.log('press')} type='primary' danger icon={<CalculatorOutlined />}>сосчитать</Button>
+            <Button htmlType='submit' type='primary' danger icon={<CalculatorOutlined />}>сосчитать</Button>
         </Form.Item>
     </Form>
 }
