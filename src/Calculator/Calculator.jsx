@@ -4,7 +4,7 @@ import handleForm from './handler'
 
 function Calculator() {
     return <main className='App'>
-        <a className='Header' href='https://github.com/'>Калькулятор кредита</a>
+        <a className='Header' href='https://github.com/alexKudryavtsev-web/credit_calculator'>Калькулятор кредита</a>
         <Form submitHandler={handleForm} />
     </main>
 }
