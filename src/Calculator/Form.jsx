@@ -13,7 +13,7 @@ function FormComponent({ submitHandler }) {
             <Input placeholder='введите сумму' type='number' min={1} prefix={<DollarOutlined />} />
         </Form.Item>
         <Form.Item label='Процентная ставка:' name='percent' rules={[isRequired, isPercent]}>
-            <Input placeholder='введите процент' type='number' min={1} max={100} prefix={<PercentageOutlined />} />
+            <Input placeholder='введите процент' min={1} max={100} prefix={<PercentageOutlined />} />
         </Form.Item>
         <Form.Item label='Количество платежей:' name='mounth' rules={[isRequired, isMoreThen1]}>
             <Input placeholder='введите количество месяцев' type='number' min={1} prefix={<CalendarOutlined />} />

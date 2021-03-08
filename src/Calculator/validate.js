@@ -12,9 +12,9 @@ const isMoreThen1 = {
 
 const isPercent = {
     type: 'number',
-    min: 1,
+    min: 0.1,
     max: 100,
-    message: 'значение должно быть в 1...100%',
+    message: 'значение должно быть в 0,1...100%',
     transform: v => Number(v)
 }
 
